@@ -14,6 +14,16 @@
         {
             return $this->nome;
         }
+
+        public function setEndereco($nome)
+        {
+            $this->endereco = $endereco;
+        }
+
+        public function getEndereco()
+        {
+            return $this->endereco;
+        }
     }
 
 
